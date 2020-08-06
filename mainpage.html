@@ -2,16 +2,16 @@
 
 <body>
 
-<p id="eventnumber"> </p>
-<button id="bt" onclick="event();"> Walk down the road. </button>
+<p id="eventNumber"> </p>
+<button id="bt" onclick="random();"> Walk down the road. </button>
 
 </body>
 
 <script>
 
-function event() {
+function random() {
 
-document.getElementByID("eventnumber").innerHTML = Math.floor(Math.event() * 20);
+document.getElementByID("eventNumber").innerHTML = Math.floor(Math.random() * 20);
 
 }
 
@@ -26,7 +26,7 @@ height: 55px;
 
 }
 
-#eventnumber {
+#eventNumber {
 
 font-size:90px;
 
